@@ -2,12 +2,18 @@
  
 - 功能: lch 拾色器
 
+- 核心代码: ./src/main.ts
+
+- 运行
+  - 快速开发预览: `pnpm run tauri dev`
+  - 构建: `pnpm run tauri build`
+  - 命令可能有点绕, 可详细看 `package.json` 的 `scripts` 字段和 `tauri.conf.json` 的 `build` 字段
+  
 - 依赖库:
   - vanjs - 最轻量级的前端响应式框架
   - culori - 色彩转换库
   - tauri - desktop 端框架
 
-- 核心代码: ./src/main.ts
 
 - 未来优化方向:
   - 增加横截面色盘, 目前这个只有纵截面
