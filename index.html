@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="src/styles.css">
+        <script defer type="module" src="src/main.ts"></script>
+    </head>
+    <body>
+        <div id="color_picker_area">
+            <div id="lightness_area">
+                <canvas id="lightness_bar"></canvas>
+                <div id="lightness_picker"></div>
+            </div>
+            <div id="hue_area">
+                <canvas id="hue_ring"></canvas>
+                <canvas id="color_panel"></canvas>
+                <div id="hue_picker"></div>
+                <div id="color_panel_picker"></div>
+            </div>
+            <div id="chroma_area">
+                <canvas id="chroma_bar"></canvas>
+                <div id="chroma_picker"></div>
+            </div>
+        </div>
+        <div id="history_area">
+            <div id="history_bar"></div>
+        </div>
+        <div id="value_area">
+            <div id="complex_value_area">
+                <div id="complex_color_type_selector">hex</div>
+                <input id="complex_color_input" spellcheck="false"  onfocus="this.select();"></input>
+            </div>
+        </div>
+
+    </body>
+</html>
