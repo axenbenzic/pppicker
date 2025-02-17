@@ -8,7 +8,7 @@
   - 安装依赖: `pnpm i`
   - 快速开发预览: `pnpm run tauri dev`
   - 构建: `pnpm run tauri build`
-  - (命令可能有点绕, 可详细看 `package.json` 的 `scripts` 字段和 `./tauri-src/tauri.conf.json` 的 `build` 字段)
+  - (命令可能有点绕, 可详细看 `package.json` 的 `scripts` 字段和 `./src-tauri/tauri.conf.json` 的 `build` 字段)
   
 - 依赖库:
   - `vanjs` - 最轻量级的前端响应式框架
