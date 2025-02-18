@@ -4,11 +4,12 @@
 
 - 核心代码: `./src/main.ts`
 
-- 运行
+- 试用: 自行到 release 中下载安装包
+
+- 部署与运行
   - 安装依赖: `pnpm i`
   - 快速开发预览: `pnpm run tauri dev`
   - 构建: `pnpm run tauri build`
-  - (命令可能有点绕, 可详细看 `package.json` 的 `scripts` 字段和 `./src-tauri/tauri.conf.json` 的 `build` 字段)
   
 - 依赖库:
   - `vanjs` - 最轻量级的前端响应式框架
