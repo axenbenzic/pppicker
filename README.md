@@ -2,7 +2,7 @@
  
 - 功能: lch 拾色器
 
-- 核心代码: ./src/main.ts
+- 核心代码: `./src/main.ts`
 
 - 运行
   - 安装依赖: `pnpm i`
