@@ -1,26 +1,27 @@
 # pppicker
- 
-- 功能: 一个更自然的拾色器
 
-- 核心代码: `./src/main.ts`
+- **Function**: A more natural color picker
 
-- 试用: 自行到 release 中下载安装包
+- **Core Code**: `./src/main.ts`
 
-- 部署与运行
-  - 安装依赖: `pnpm i`
-  - 快速开发预览: `pnpm run tauri dev`
-  - 构建: `pnpm run tauri build`
-  
-- 依赖库:
-  - `vanjs` - 最轻量级的前端响应式框架
-  - `culori` - 色彩转换库
-  - `tauri` - 桌面端框架
+- **Try it out**: Download the installation package from the release page
 
+- **Deployment & Running**
+  - Install dependencies: `pnpm i`
+  - Quick development preview: `pnpm run tauri dev`
+  - Build: `pnpm run tauri build`
 
-- 未来优化方向:
-  - 增加横截面色盘, 目前这个只有纵截面
-  - 增加更多色彩模型, 比如 oklch, 谷歌的 hct, 进而增加更多色彩系统之间的转换
-  - 让这个拾色器可以直接控制绘画软件中的颜色, 可能还要在绘画软件中写一个专门的插件.
+- **Dependencies**:
+  - `vanjs` - The most lightweight front-end reactive framework
+  - `culori` - Color conversion library
+  - `tauri` - Desktop application framework
+
+- **Future Improvements**:
+  - Add a cross-sectional color wheel (currently only has a longitudinal section)
+  - Add support for more color models, such as OKLCH and Google's HCT, thereby enabling more conversions between color systems
+  - Enable the color picker to directly control colors in painting software, which may require writing a dedicated plugin for the painting software
+
+---
 
 - 展示:  
 ![图片](./pic/1.png)
