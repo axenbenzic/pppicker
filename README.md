@@ -23,5 +23,5 @@
 
 ---
 
-- shot:  
+- screenshot:  
 ![图片](./pic/1.png)
